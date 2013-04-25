@@ -19,6 +19,22 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_core', '~> 1.3.1'
   s.add_dependency 'premailer-rails3', '~> 1.1.0'
 
-  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'guard'
+  s.add_development_dependency 'guard-rspec'
+  
+
+  s.add_development_dependency 'cucumber-rails', '~> 1.0.0'
+  s.add_development_dependency 'capybara', '~> 1.1.2'
+
+  s.add_development_dependency 'coffee-rails'
+  s.add_development_dependency 'factory_girl', '~> 2.6.4'
+  s.add_development_dependency 'ffaker'
+  s.add_development_dependency 'rspec-rails',  '~> 2.9'
+  s.add_development_dependency 'sass-rails'
+  s.add_development_dependency 'nokogiri'
+
+
+  s.add_development_dependency 'database_cleaner', '~> 0.6.7'
+  s.add_development_dependency 'sqlite3'
 end
 
